@@ -1,0 +1,62 @@
+body{
+    font-family: 'Bai Jamjuree';
+}
+a{
+    text-decoration: none;
+}
+/*----header styles----*/
+header{
+    margin-bottom: 150px;
+}
+header .content h1{
+    font-weight: 600;
+    color:hsl(210, 10%, 33%);
+    
+}
+header .content p{
+    font-weight: 400;
+    color:hsl(201, 11%, 66%);
+}
+header .dl-links a{
+    color: #f5f6f8;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 29px;
+}
+header .dl-links a:first-child{
+    background-color: hsl(171, 66%, 44%);    
+}
+header .dl-links a:last-child{
+    background-color: hsl(233, 100%, 69%);    
+}
+/*----header styles----*/
+
+/*----main styles----*/
+.advantages-item h1{
+    font-weight: 600;
+    font-size: 2vw;
+    color: hsl(210, 10%, 33%);
+}
+.advantages-item p{
+    font-weight: 400;    
+    color:hsl(201, 11%, 66%);
+}
+.advantages-item-2 img{
+   margin-left: -5%; 
+}
+.advantages-item-2{
+    margin-bottom: 155px;
+}
+.advantages-item-3 div:first-child p{
+    margin: 0;
+}
+/*----main styles----*/
+
+/*----footer styles----*/
+.socialmedia-box{
+    float: right;    
+}
+footer{
+    background-color:#f5f6f8;
+}
+/*----footer styles----*/
