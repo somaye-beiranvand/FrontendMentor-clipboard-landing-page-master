@@ -33,8 +33,7 @@ header .dl-links a:last-child{
 
 /*----main styles----*/
 .advantages-item h1{
-    font-weight: 600;
-    font-size: 2vw;
+    font-weight: 600;    
     color: hsl(210, 10%, 33%);
 }
 .advantages-item p{

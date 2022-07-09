@@ -6,28 +6,10 @@
    
  }
 @media (max-width: 575.98px) { 
-    header .content h1{        
-        font-size: 6.76vw;
-    }
-    header .content p{
-        font-size: 3.8vw;
-    }
-    .advantages-item-larg h1{        
-        font-size: 6vw;        
-    }
-    .advantages-item-larg p{           
-        font-size: 3.5vw;
-    }
     .advantages-item-2 img{
         width: 100%;
         margin: 0;
-    }
-    .advantages-item-small h1{
-        font-size: 5vw;
- }
-    .advantages-item-small p{
-        font-size: 3.3vw;
- }
+    }    
  .advantages-item-3 img{
     width: 100%;
 }
@@ -36,104 +18,19 @@
  }    
  }
  @media (min-width: 576px) and (max-width: 767.98px) { 
-    header .content h1{        
-        font-size: 3.6vw ;
-    }
-    header .content p{
-        font-size: 2.3vw;
-    }
-    .advantages-item-larg h1{        
-        font-size: 3.2vw;        
-    }
-    .advantages-item-larg p{           
-        font-size: 2vw;
-    }
-    .advantages-item-small h1{
-        font-size: 2.8vw;
- }
-    .advantages-item-small p{
-        font-size: 1.8vw;
- } 
+ 
  }
 @media (min-width: 768px) and (max-width: 991.98px) { 
-    header .content h1{        
-        font-size: 2.09vw ;
-    }
-    header .content p{
-        font-size: 1.6vw;
-    }
-    .advantages-item-larg h1{        
-        font-size: 1.9vw;        
-    }
-    .advantages-item-larg p{           
-        font-size: 1.4vw;
-    }
-    .advantages-item-small h1{
-        font-size: 1.6vw;
- }
-    .advantages-item-small p{
-        font-size: 1.2vw;
- } 
+      
  }
 @media (min-width: 992px) and (max-width: 1199.98px) { 
-    header .content h1{        
-        font-size: 2.4vw ;
-    }
-    header .content p{
-        font-size: 1.4vw;
-    }
-    .advantages-item-larg h1{        
-        font-size: 2.1vw;        
-    }
-    .advantages-item-larg p{           
-        font-size: 1.1vw;
- }
- .advantages-item-small h1{
-    font-size: 1.7vw;
-}
-.advantages-item-small p{
-    font-size: 0.9vw;
-} 
+   
 }
 @media (min-width: 1200px) and (max-width: 1399.98px) { 
-    header .content h1{        
-        font-size: 2.6vw ;
-    }
-    header .content p{
-        font-size: 1.2vw;
-    }
-    .advantages-item-larg h1{        
-        font-size: 2.3vw;        
-    }
-    .advantages-item-larg p{           
-        font-size: 1vw;
- }
- .advantages-item-small h1{
-    font-size: 1.9vw;
-}
-.advantages-item-small p{
-    font-size: 0.8vw;
-} 
+    
  }
 @media (min-width: 1400px) { 
-    header .content h1{        
-        font-size: 2.8vw ;
-    }
-    header .content p{
-        font-size: 1.3vw;
-    }
-    .advantages-item-larg h1{        
-        font-size: 2.4vw;        
-    }
-    .advantages-item-larg p{           
-        font-size: 1.1vw;
- }
-    .advantages-item-small h1{
-        font-size: 2vw;
- }
-    .advantages-item-small p{
-        font-size: 1vw;
- }
+   
  .advantages-item-3 img{
     width: 58%;
 }
