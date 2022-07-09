@@ -32,11 +32,11 @@ header .dl-links a:last-child{
 /*----header styles----*/
 
 /*----main styles----*/
-.advantages-item h1{
+.advantages-item h1 ,.tools-item h1{
     font-weight: 600;    
     color: hsl(210, 10%, 33%);
 }
-.advantages-item p{
+.advantages-item p, .tools-item p{
     font-weight: 400;    
     color:hsl(201, 11%, 66%);
 }
@@ -48,6 +48,12 @@ header .dl-links a:last-child{
 }
 .advantages-item-3 div:first-child p{
     margin: 0;
+}
+.tools-item-1{
+    margin-bottom: 60px;
+}
+.tools-item-2 img{
+    margin-bottom: 47px;
 }
 /*----main styles----*/
 
