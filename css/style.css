@@ -4,30 +4,71 @@ body{
 a{
     text-decoration: none;
 }
+.my-fs-1 {
+    font-size: calc(1.375rem + 1.5vw) !important;
+  }
+  
+  .my-fs-2 {
+    font-size: calc(1.3rem + 0.9vw) !important;
+  }
+  
+  .my-fs-3 {
+    font-size: calc(1rem + 0.3vw) !important;
+  }
+  
+  .my-fs-4 {
+    font-size: calc(0.9rem + 0.3vw) !important;
+  }
+
+  @media (min-width: 1200px) {
+    .my-fs-1 {
+      font-size: 2.25rem !important;
+    }
+  
+    .my-fs-2 {
+      font-size: 2rem !important;
+    }
+  
+    .my-fs-3 {
+      font-size: 1.5rem !important;
+    }
+  
+    .my-fs-4 {
+      font-size: 1.25rem !important;
+    }
+  }
 /*----header styles----*/
 header{
+    margin-top: 8rem;
     margin-bottom: 150px;
 }
 header .content h1{
     font-weight: 600;
     color:hsl(210, 10%, 33%);
-    
+   
 }
 header .content p{
     font-weight: 400;
     color:hsl(201, 11%, 66%);
+    
 }
-header .dl-links a{
-    color: #f5f6f8;
+.dl-button{
+    color: #f5f6f8 !important;
     font-size: 18px;
     font-weight: 600;
     border-radius: 29px;
 }
-header .dl-links a:first-child{
+.dl-button-green{
     background-color: hsl(171, 66%, 44%);    
 }
-header .dl-links a:last-child{
+.dl-button-green:hover{
+    background-color: #5dccbb;
+}
+.dl-button-blue{
     background-color: hsl(233, 100%, 69%);    
+}
+.dl-button-blue:hover{
+    background-color: #8896ff;    
 }
 /*----header styles----*/
 
@@ -40,9 +81,7 @@ header .dl-links a:last-child{
     font-weight: 400;    
     color:hsl(201, 11%, 66%);
 }
-.advantages-item-2 img{
-   margin-left: -5%; 
-}
+
 .advantages-item-2{
     margin-bottom: 155px;
 }
@@ -55,6 +94,7 @@ header .dl-links a:last-child{
 .tools-item-2 img{
     margin-bottom: 47px;
 }
+
 /*----main styles----*/
 
 /*----footer styles----*/
@@ -62,6 +102,42 @@ header .dl-links a:last-child{
     float: right;    
 }
 footer{
-    background-color:#f5f6f8;
+    /* background-color:#f5f6f8; */
+}
+.companies{
+    margin-bottom: 7rem;
+    padding: 0 5rem 0 5rem;
+}
+footer .content h1{
+    font-weight: 600;
+    color:hsl(210, 10%, 33%);
+}
+footer .content p{
+    font-weight: 400;
+    color:hsl(201, 11%, 66%);
+}
+footer .logo img{
+   width: 53px;
+}
+footer a{
+    color:hsl(210, 10%, 33%) !important;    
+}
+.Links-Social-media a:hover{
+    color: hsl(171, 66%, 44%) !important;
+}
+.Links-Social-media i:hover{
+    color: hsl(171, 66%, 44%) !important;
+}
+.socialmedia-box i{
+    
+    
+    color:hsl(210, 10%, 33%);
+    
+}
+.Links-Social-media{
+    background-color: #f5f6f8;
 }
 /*----footer styles----*/
+.advantages-item-2 img{
+    max-width: 90%;
+} 

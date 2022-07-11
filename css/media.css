@@ -1,53 +1,40 @@
 @media (max-width: 767.98px) { 
-    
+    .advantages-item-3 img{
+        width: 100%;
+    }
  }
 @media (max-width: 991.98px) { 
     .tools{
         margin-bottom: 40px;
-    }
- }
-@media (max-width: 1199.98px) { ... }
-@media (max-width: 1399.98px) { ... }
-@media (max-width: 375px) { 
-   
+    }    
  }
 @media (max-width: 575.98px) { 
     .advantages-item-2 img{
-        width: 100%;
+        max-width: 90%;
         margin: 0;
     }    
- .advantages-item-3 img{
-    width: 100%;
+    .advantages-item-3 img{
+        width: 100%;
+    }
+    .advantages-item-3 div:first-child{
+        margin-bottom: 70px;
+    }    
 }
-.advantages-item-3 div:first-child{
-    margin-bottom: 70px;
- }    
- }
- @media (min-width: 576px) and (max-width: 767.98px) { 
- 
- }
-@media (min-width: 768px) and (max-width: 991.98px) { 
-      
- }
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-   
-}
-@media (min-width: 1200px) and (max-width: 1399.98px) { 
-    
- }
-@media (min-width: 1400px) { 
-   
- .advantages-item-3 img{
-    width: 58%;
-}
-
+@media (min-width: 1400px) {
  .advantages-item-3 div:first-child{
     margin-bottom: 110px;
  } 
+}
+@media (min-width: 768px) { 
+    .advantages-item-3 img{
+        width: 55%;
+    }
  }
-@media (min-width: 576px) { ... }
-@media (min-width: 768px) { ... }
-@media (min-width: 992px) { ... }
-@media (min-width: 1200px) { 
-   
+@media (min-width: 992px) { 
+    .advantages-item-2 img{
+        margin-left: -7%; 
+     }
+     .tools-box{
+        padding:0 5rem 0 5rem;
+    }    
  }
