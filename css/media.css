@@ -6,28 +6,27 @@
 @media (max-width: 991.98px) { 
     .tools{
         margin-bottom: 40px;
-    }    
+    } 
+    .Links-Social-media{
+        padding: 0 1.5rem 0 1.5rem !important;
+    }   
  }
 @media (max-width: 575.98px) { 
     .advantages-item-2 img{
         max-width: 90%;
         margin: 0;
     }    
-    .advantages-item-3 img{
-        width: 100%;
-    }
+    
     .advantages-item-3 div:first-child{
         margin-bottom: 70px;
     }    
 }
 @media (min-width: 1400px) {
- .advantages-item-3 div:first-child{
-    margin-bottom: 110px;
- } 
+ 
 }
 @media (min-width: 768px) { 
     .advantages-item-3 img{
-        width: 55%;
+        width: 100%;
     }
  }
 @media (min-width: 992px) { 
@@ -36,5 +35,9 @@
      }
      .tools-box{
         padding:0 5rem 0 5rem;
+    }
+    .companies{
+        
+        padding: 0 5rem 0 5rem;
     }    
  }
