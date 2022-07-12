@@ -42,9 +42,9 @@ Users should be able to:
 - [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css) - a great extension for vscode editor which helped me with the completion of bootstrap classes.
 
 #### just follow these steps to enjoy this amazing tool
-- in your vscode go to file/preferences/setting
-- search for quickSuggestions
-- do this settings
+[1] in your vscode go to file/preferences/setting
+[2] search for quickSuggestions
+[3] do this settings
 ```
 "editor.quickSuggestions": {
         "other": true,
@@ -52,8 +52,8 @@ Users should be able to:
         "strings": true
     },
 ```
-- install "HTML CSS Support" extension
-- have fun :wink:
+[4] install "HTML CSS Support" extension
+[5] have fun :wink:
 
 - [Designer Tools](https://chrome.google.com/webstore/detail/designer-tools/jiiidpmjdakhbgkbdchmhmnfbdebfnhp) -Helpful to Measure and align elements within Chrome
 
