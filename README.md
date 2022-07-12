@@ -12,8 +12,6 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
   - [Useful resources](#useful-resources)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -44,9 +42,9 @@ Users should be able to:
 - [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css) - a great extension for vscode editor which helped me with the completion of bootstrap classes.
 
 #### just follow these steps to enjoy this amazing tool
--in your vscode go to file/preferences/setting
--search for quickSuggestions
--do this settings
+- in your vscode go to file/preferences/setting
+- search for quickSuggestions
+- do this settings
 ```
 "editor.quickSuggestions": {
         "other": true,
